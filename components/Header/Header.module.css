@@ -1,0 +1,91 @@
+.navList, .btnWrapper {
+  display: none;
+}
+
+.burger {
+    fill: var(--color-light-80);
+    cursor: pointer;
+}
+
+.headerWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 1396px) {
+
+    .burger {
+        display: none;
+    }
+
+    .header {
+        padding: 2px 0;
+    }
+
+    .logo {
+        margin-right: 130px;
+    }
+
+    .navList {
+        display: flex;
+        gap: 32px;
+    }
+
+    .navLink {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.21;
+        color: var(--color-white-70);
+        transition: color 0.3s ease-in-out;
+    }
+
+    .navLink:hover {
+        color: var(--color);
+    }
+
+    .btnWrapper {
+        display: flex;
+        gap: 12px;
+    }
+
+    .btn {
+        padding: 11px 24px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.43;
+        border-radius: 3px;
+        box-shadow: 0 0 4px 0 var(--color-aqua);
+        border: 1.50px solid var(--color-aqua);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .btn:hover {
+        scale: 1;
+        transform: scale(1.05);
+    }
+
+    .filled {
+        color: var(--color-dark);
+        background-color: var(--color-aqua);
+    }
+
+    .outline {
+        color: var(--color-aqua);
+        background-color: var(--color-aqua-20);
+    }
+    
+}
