@@ -1,0 +1,125 @@
+.heroSection {
+    padding: 40px 0;
+}
+
+.imgWrapper {
+    width: 300px;
+    height: 134px;
+    position: relative;
+    margin-bottom: 33px;
+}
+
+.img {
+    object-fit: contain;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.264;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: var(--color-white);
+    margin-bottom: 12px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--color-light-80);
+    margin-bottom: 24px;
+}
+
+.form {
+    position: relative; 
+    margin-bottom: 12px;
+    max-width: 500px;
+}
+
+.input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--color-purple-darkest);
+    padding: 15px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--color-white-40);
+}
+
+.btn {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    padding: 11px 24px;
+    color: var(--color-dark);
+    background-color: var(--color-aqua);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    border-radius: 3px;
+    box-shadow: 0 0 4px 0 var(--color-aqua);
+    border: 1.50px solid var(--color-aqua);
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.btn:hover {
+    scale: 1;
+    transform: scale(1.05);
+}
+
+.info {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    color: var(--color-white-30);
+}
+
+
+@media screen and (min-width: 1396px) {
+    
+    .heroSection {
+        padding: 147px 0;
+    }
+
+    .heroSectionWrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .imgWrapper {
+        width: 469px;
+        height: 209px;
+        margin-bottom: 0;
+    }
+
+    .contentWrapper {
+        width: 630px;
+    }
+
+    .title {
+        font-size: 60px;
+        line-height: 1.2;
+    }
+
+    .input {
+        padding: 20px 16px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .btn {
+        padding: 16px 24px;
+        font-size: 16px;
+        line-height: 1.25;      
+    }
+
+}
