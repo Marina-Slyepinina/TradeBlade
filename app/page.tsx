@@ -14,7 +14,7 @@ export default function App() {
         <Numbers />
         <Deals />
         <About />
-        <Tariffs />
+        {/* <Tariffs /> */}
       </main>
     </>
   );
