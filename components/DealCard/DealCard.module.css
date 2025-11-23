@@ -1,0 +1,85 @@
+.card {
+    position: relative;
+    width: 299px; 
+    height: 209px;
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    padding: 16px;
+    overflow: hidden;
+
+    clip-path: polygon(0 0, 86% 0, 100% 18%, 100% 100%, 0% 100%);
+    border-radius: 4px;
+}
+
+.logoOverlay {
+    position: absolute;
+    top: 8px; 
+    right: 0;
+    fill: #000001;
+    opacity: 0.15;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2px;
+    margin-bottom: 48px;
+}
+
+.pair {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+}
+
+.time {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--color-white-40);
+}
+
+.content {
+    margin-bottom: 9px;
+}
+
+.label, .target, .date {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--color-white-70);
+}
+
+.profit {
+    display: flex;
+    gap: 6px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--color-green);
+    align-items: center;
+}
+
+.arrow {
+    stroke: var(--color-green);
+}
+
+.date {
+    font-weight: 400;
+    color: var(--color-white-40);
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+
+}

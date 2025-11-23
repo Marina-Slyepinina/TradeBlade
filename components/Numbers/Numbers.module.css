@@ -1,0 +1,128 @@
+.numbersSectionWrapper {
+    position: relative;
+    padding-top: 24px;
+    overflow: hidden;
+}
+
+.dividerDesc {
+    display: none;
+}
+
+.dividerMob {
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: var(--color-white);
+    width: 72%;
+    display: block;
+    height: auto;
+    z-index: -1;
+}
+
+.numbersSection {
+    background-color: var(--color-white);
+    padding: 24px 0 48px 0;
+}
+
+.mainBlokWrapper {
+    margin-bottom: 40px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.29;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 2px;
+}
+
+.date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: -0.04em;
+    color: var(--color-black-medium);
+}
+
+.statisticList {
+    display: flex;
+    gap: 32px 65px;
+    flex-wrap: wrap;
+}
+
+.statisticItem {
+    max-width: 138px;
+}
+
+.statisticCategory {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    text-transform: uppercase;
+    color: var(--color-black-strong);
+    margin-bottom: 4px;
+}
+
+.statisticValue {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--color-purple);
+}
+
+@media screen and (min-width: 1396px) {
+
+    .numbersSectionWrapper {
+        padding-top: 60px;
+    }
+
+    .dividerMob {
+        display: none;
+    }
+
+    .dividerDesc {
+        display: block;
+        position: absolute;
+        top: 2;
+        left: 0;
+        fill: var(--color-white);
+        width: 45%;
+        display: block;
+        height: auto;
+        z-index: -1;
+    }
+
+    .container {
+        display: flex;
+        gap: 147px;
+    }
+
+    .numbersSection {
+        background-color: var(--color-white);
+        padding: 65px 0 61px 0;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 1.27;
+        margin-bottom: 4px;
+    }
+
+    .statisticItem {
+        max-width: 100%;
+    }
+
+    .statisticCategory {
+        margin-bottom: 8px;
+    }
+
+    .statisticValue {
+        font-size: 60px;
+    }
+
+}
