@@ -12,16 +12,8 @@ export const sections = [
     name: 'про компанію',
   },
   {
-    id: 'how-to-start',
-    name: 'як почати',
-  },
-  {
     id: 'tariffs',
     name: 'тарифи',
-  },
-  {
-    id: 'reviews',
-    name: 'відгуки',
   },
   {
     id: 'faq',

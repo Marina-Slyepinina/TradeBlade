@@ -5,6 +5,7 @@ import { Numbers } from "@/components/Numbers/Numbers";
 import { About } from "@/components/About/About";
 import { Tariffs } from "@/components/Tariffs/Tariffs";
 import { FAQ } from "@/components/FAQ/FAQ";
+import { Footer } from "@/components/Footer/Footer";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Tariffs />
         <FAQ />
       </main>
+      <Footer />
     </>
   );
 }
