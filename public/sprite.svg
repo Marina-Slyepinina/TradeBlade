@@ -21,5 +21,17 @@
     <symbol id="arrow-up" viewBox="0 0 20 32">
       <path stroke-width="3.556" d="m9.608 2.515 7.619 8m-7.619-8-8.381 8m8.381-8v28.444"/>
     </symbol>
+    <symbol id="divider-mob" viewBox="0 0 104 32">
+      <path fill="#fff" d="M0 0h86.968c1.297 0 2.489.715 3.099 1.859l13.324 24.976c1.248 2.34-.447 5.165-3.099 5.165H3.512A3.512 3.512 0 0 1 0 28.488V0z" style="fill:var(--color1, #fff)"/>
+    </symbol>
+    <symbol id="divider-desc" viewBox="0 0 341 32">
+      <path fill="#fff" d="M0 0h307.033c1.132 0 2.217.45 3.017 1.25L340.8 32H0V0z" style="fill:var(--color1, #fff)"/>
+    </symbol>
+    <symbol id="arrow-up" viewBox="0 0 20 32">
+      <path stroke-width="3.556" d="m9.608 2.515 7.619 8m-7.619-8-8.381 8m8.381-8v28.444"/>
+    </symbol>
+    <symbol id="logo-overlay" viewBox="0 0 32 32">
+      <path d="M12.608 23.221 0 1.456l6.262 5.026 8.005 13.865-1.66 2.875zM24.443 10.043 11.898 31.844l1.221-7.936 8.005-13.865h3.319zM14.72 18.703l4.742-8.213H9.978l4.742 8.213zM7.187 6.52l25.153-.036-7.484 2.911H8.846L7.186 6.52z"/>
+    </symbol>
   </defs>
 </svg>
