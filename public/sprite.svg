@@ -33,5 +33,8 @@
     <symbol id="logo-overlay" viewBox="0 0 32 32">
       <path d="M12.608 23.221 0 1.456l6.262 5.026 8.005 13.865-1.66 2.875zM24.443 10.043 11.898 31.844l1.221-7.936 8.005-13.865h3.319zM14.72 18.703l4.742-8.213H9.978l4.742 8.213zM7.187 6.52l25.153-.036-7.484 2.911H8.846L7.186 6.52z"/>
     </symbol>
+    <symbol id="check" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3.733" d="m5.333 17.5 9.899 9.899 14-21"/>
+    </symbol>
   </defs>
 </svg>
