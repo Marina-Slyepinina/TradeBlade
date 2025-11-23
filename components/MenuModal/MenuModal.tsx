@@ -18,7 +18,7 @@ export const MenuModal = ({ onClose }: MenuModalProps) => {
 
             <ul className={css.navList}>
                 {sections.map(item => (
-                    <li className={css.navItem} key={item.id}>
+                    <li className={css.navItem} key={item.id} onClick={onClose}>
                         <Link className={css.navLink} href={`/#${item.id}`}>{(item.name).toUpperCase()}</Link>
                     </li>))
                 }
