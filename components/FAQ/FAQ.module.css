@@ -1,0 +1,32 @@
+.faqSection {
+    background-color: var(--color-white);
+    padding: 56px 0;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.29;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: var(--color-dark);
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1396px) {
+
+    .faqSection {
+        padding: 96px 0;
+    }
+
+   .title {
+        font-size: 44px;
+        line-height: 1.27;
+        margin-bottom: 64px;
+
+    } 
+
+    .container {
+        padding: 0 279px;
+    }
+}

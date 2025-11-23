@@ -4,6 +4,7 @@ import { Deals } from "@/components/Deals/Deals";
 import { Numbers } from "@/components/Numbers/Numbers";
 import { About } from "@/components/About/About";
 import { Tariffs } from "@/components/Tariffs/Tariffs";
+import { FAQ } from "@/components/FAQ/FAQ";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Deals />
         <About />
         <Tariffs />
+        <FAQ />
       </main>
     </>
   );
