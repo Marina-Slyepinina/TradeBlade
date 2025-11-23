@@ -1,0 +1,90 @@
+.dealsSection {
+    padding: 48px 0 54px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.29;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.online {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: -0.04em;
+    color: var(--color-green-90);
+    position: relative;
+    padding-left: 11px;
+}
+
+.online::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 7px;
+    height: 7px;
+    background-color: var(--color-green-90);
+    border-radius: 50%;
+    margin-top: 6.5px;
+}
+
+.carouselWrapper {
+    padding-left: 16px;
+    overflow: hidden;
+    margin: 24px 0 20px 0; 
+}
+
+.swiperSlide {
+    width: 299px !important;
+}
+
+.dealsSection :global(.swiper-scrollbar) {
+    height: 6px;
+    background: var(--color-dark-gray-40); 
+    border-radius: 56px;
+    left: 32px; 
+    width: calc(100% - 64px); 
+    margin-top: 16px;
+
+}
+
+.dealsSection :global(.swiper-scrollbar-drag) {
+    height: 6px;
+    background: var(--color-gray-medium);
+    border-radius: 56px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .carouselWrapper {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (min-width: 1396px) {
+
+    .title {
+        font-size: 44px;
+        line-height: 1.27;
+        margin-bottom: 4px;
+    }
+
+    .carouselWrapper {
+        max-width: 1440px;
+        margin: 0 auto;
+        margin-top: 72px;
+        padding-left: 80px;
+    }
+
+    .dealsSection :global(.swiper-scrollbar) {
+        width: 955px;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+    
+}
